@@ -1,0 +1,118 @@
+2019-06-26 15:09:29,172 DEBUG Reading configuration `.pyre_configuration`...
+2019-06-26 15:09:29,172 DEBUG Found source_directories: `.`
+2019-06-26 15:09:29,172 INFO No binary specified, looking for `pyre.bin` in PATH
+2019-06-26 15:09:29,172 INFO Found: `/home/in062/PycharmProjects/check_pyre/venv/bin/pyre.bin`
+2019-06-26 15:09:29,172 INFO No typeshed specified, looking for it
+2019-06-26 15:09:29,173 DEBUG Trying with: `/home/in062/PycharmProjects/check_pyre/venv/lib/python3.7/site-packages/pyre_check/pyre_check/typeshed/`
+2019-06-26 15:09:29,173 DEBUG Trying with: `/home/in062/PycharmProjects/check_pyre/venv/lib/python3.7/site-packages/pyre_check/typeshed/`
+2019-06-26 15:09:29,173 DEBUG Trying with: `/home/in062/PycharmProjects/check_pyre/venv/lib/python3.7/pyre_check/typeshed/`
+2019-06-26 15:09:29,173 DEBUG Trying with: `/home/in062/PycharmProjects/check_pyre/venv/lib/pyre_check/typeshed/`
+2019-06-26 15:09:29,173 INFO Found: `/home/in062/PycharmProjects/check_pyre/venv/lib/pyre_check/typeshed/`
+2019-06-26 15:09:29,173 DEBUG Running `/home/in062/PycharmProjects/check_pyre/venv/bin/pyre.bin analyze -logging-sections parser -project-root /home/in062/PycharmProjects/check_pyre/static_analysis_example -filter-directories /home/in062/PycharmProjects/check_pyre/static_analysis_example -workers 1 -typeshed /home/in062/PycharmProjects/check_pyre/venv/lib/pyre_check/typeshed/ -taint-models stubs/taint .`
+2019-06-26 15:09:29,187 INFO Finding type stubs in `/home/in062/PycharmProjects/check_pyre/static_analysis_example`...
+2019-06-26 15:09:29,193 INFO Finding type stubs in `/home/in062/PycharmProjects/check_pyre/venv/lib/pyre_check/typeshed/third_party`...
+2019-06-26 15:09:29,202 INFO Finding type stubs in `/home/in062/PycharmProjects/check_pyre/venv/lib/pyre_check/typeshed/stdlib`...
+2019-06-26 15:09:29,302 INFO Parsing 802 stubs and external sources...
+2019-06-26 15:09:30,022 PERFORMANCE Stubs parsed: 0.820000s
+2019-06-26 15:09:30,038 INFO Parsing 1 sources in `/home/in062/PycharmProjects/check_pyre/static_analysis_example`...
+2019-06-26 15:09:30,054 PERFORMANCE Sources parsed: 0.015000s
+2019-06-26 15:09:30,055 PERFORMANCE Registered ignores: 0.016000s
+2019-06-26 15:09:30,055 INFO Adding environment information to shared memory...
+2019-06-26 15:09:30,056 PERFORMANCE Added environment to shared memory: 0.000000s
+2019-06-26 15:09:30,156 INFO Building type environment...
+2019-06-26 15:09:31,824 PERFORMANCE Full environment built: 1.769000s
+2019-06-26 15:09:31,880 MEMORY Shared memory size (size: 14)
+2019-06-26 15:09:31,880 PERFORMANCE Filtered directories: 0.055000s
+2019-06-26 15:09:31,881 INFO Checking 1 sources...
+2019-06-26 15:09:31,904 INFO Running check `TypeCheck`...
+2019-06-26 15:09:31,905 INFO Processed 1 of 1 sources
+2019-06-26 15:09:31,905 PERFORMANCE Check_TypeCheck: 0.024000s
+2019-06-26 15:09:31,921 PERFORMANCE Analyzed sources: 0.024000s
+2019-06-26 15:09:31,921 PERFORMANCE Postprocessed: 0.016000s
+2019-06-26 15:09:32,021 INFO Recording overrides...
+2019-06-26 15:09:33,136 PERFORMANCE Overrides recorded: 1.215000s
+2019-06-26 15:09:33,237 INFO Building call graph...
+2019-06-26 15:09:33,277 PERFORMANCE Call graph built: 0.140000s
+2019-06-26 15:09:33,377 INFO Call graph edges: 21
+2019-06-26 15:09:33,490 INFO Finding taint models in /home/in062/PycharmProjects/check_pyre/static_analysis_example/stubs/taint
+2019-06-26 15:09:33,660 INFO Analysis fixpoint started for 904 overrides 3254 functions...
+2019-06-26 15:09:33,760 INFO Iteration #0. 4158 Callables [...]
+2019-06-26 15:09:33,861 INFO Processed 500 of 4158 callables
+2019-06-26 15:09:33,964 INFO Processed 1000 of 4158 callables
+2019-06-26 15:09:34,170 INFO Processed 1500 of 4158 callables
+2019-06-26 15:09:34,293 ERROR Found no definition for $toplevel (fun)
+
+2019-06-26 15:09:34,394 INFO Processed 2000 of 4158 callables
+2019-06-26 15:09:34,640 INFO Processed 2500 of 4158 callables
+2019-06-26 15:09:34,847 INFO Processed 3000 of 4158 callables
+2019-06-26 15:09:35,085 INFO Processed 3500 of 4158 callables
+2019-06-26 15:09:35,353 INFO Processed 4000 of 4158 callables
+2019-06-26 15:09:35,405 INFO Processed 4158 of 4158 callables
+2019-06-26 15:09:35,405 INFO Iteration #0, 4158 callables, heap size 18301504 took 1.745377s
+2019-06-26 15:09:35,467 INFO Iteration #1. 906 Callables [...]
+2019-06-26 15:09:35,519 INFO Processed 500 of 906 callables
+2019-06-26 15:09:35,532 INFO Processed 906 of 906 callables
+2019-06-26 15:09:35,533 INFO Iteration #1, 906 callables, heap size 18418112 took 0.127306s
+2019-06-26 15:09:35,533 INFO Iteration #2. 0 Callables []
+2019-06-26 15:09:35,633 INFO Fixpoint iterations: 2
+2019-06-26 15:09:35,764 PERFORMANCE Analysis fixpoint complete: 2.085000s
+2019-06-26 15:09:35,779 PERFORMANCE Analyze: 6.581000s
+2019-06-26 15:10:38,837 DEBUG Reading configuration `.pyre_configuration`...
+2019-06-26 15:10:38,837 DEBUG Found source_directories: `.`
+2019-06-26 15:10:38,837 INFO No binary specified, looking for `pyre.bin` in PATH
+2019-06-26 15:10:38,837 INFO Found: `/home/in062/PycharmProjects/check_pyre/venv/bin/pyre.bin`
+2019-06-26 15:10:38,838 INFO No typeshed specified, looking for it
+2019-06-26 15:10:38,838 DEBUG Trying with: `/home/in062/PycharmProjects/check_pyre/venv/lib/python3.7/site-packages/pyre_check/pyre_check/typeshed/`
+2019-06-26 15:10:38,838 DEBUG Trying with: `/home/in062/PycharmProjects/check_pyre/venv/lib/python3.7/site-packages/pyre_check/typeshed/`
+2019-06-26 15:10:38,838 DEBUG Trying with: `/home/in062/PycharmProjects/check_pyre/venv/lib/python3.7/pyre_check/typeshed/`
+2019-06-26 15:10:38,838 DEBUG Trying with: `/home/in062/PycharmProjects/check_pyre/venv/lib/pyre_check/typeshed/`
+2019-06-26 15:10:38,838 INFO Found: `/home/in062/PycharmProjects/check_pyre/venv/lib/pyre_check/typeshed/`
+2019-06-26 15:10:38,838 DEBUG Running `/home/in062/PycharmProjects/check_pyre/venv/bin/pyre.bin analyze -logging-sections parser -project-root /home/in062/PycharmProjects/check_pyre/static_analysis_example -filter-directories /home/in062/PycharmProjects/check_pyre/static_analysis_example -workers 1 -typeshed /home/in062/PycharmProjects/check_pyre/venv/lib/pyre_check/typeshed/ -taint-models stubs/taint .`
+2019-06-26 15:10:38,852 INFO Finding type stubs in `/home/in062/PycharmProjects/check_pyre/static_analysis_example`...
+2019-06-26 15:10:38,856 INFO Finding type stubs in `/home/in062/PycharmProjects/check_pyre/venv/lib/pyre_check/typeshed/third_party`...
+2019-06-26 15:10:38,864 INFO Finding type stubs in `/home/in062/PycharmProjects/check_pyre/venv/lib/pyre_check/typeshed/stdlib`...
+2019-06-26 15:10:38,964 INFO Parsing 802 stubs and external sources...
+2019-06-26 15:10:39,682 PERFORMANCE Stubs parsed: 0.818000s
+2019-06-26 15:10:39,698 INFO Parsing 1 sources in `/home/in062/PycharmProjects/check_pyre/static_analysis_example`...
+2019-06-26 15:10:39,714 PERFORMANCE Sources parsed: 0.016000s
+2019-06-26 15:10:39,715 PERFORMANCE Registered ignores: 0.016000s
+2019-06-26 15:10:39,715 INFO Adding environment information to shared memory...
+2019-06-26 15:10:39,716 PERFORMANCE Added environment to shared memory: 0.001000s
+2019-06-26 15:10:39,816 INFO Building type environment...
+2019-06-26 15:10:41,505 PERFORMANCE Full environment built: 1.789000s
+2019-06-26 15:10:41,561 MEMORY Shared memory size (size: 14)
+2019-06-26 15:10:41,561 PERFORMANCE Filtered directories: 0.055000s
+2019-06-26 15:10:41,561 INFO Checking 1 sources...
+2019-06-26 15:10:41,585 INFO Running check `TypeCheck`...
+2019-06-26 15:10:41,585 INFO Processed 1 of 1 sources
+2019-06-26 15:10:41,585 PERFORMANCE Check_TypeCheck: 0.023000s
+2019-06-26 15:10:41,601 PERFORMANCE Analyzed sources: 0.024000s
+2019-06-26 15:10:41,602 PERFORMANCE Postprocessed: 0.016000s
+2019-06-26 15:10:41,702 INFO Recording overrides...
+2019-06-26 15:10:42,809 PERFORMANCE Overrides recorded: 1.207000s
+2019-06-26 15:10:42,909 INFO Building call graph...
+2019-06-26 15:10:42,949 PERFORMANCE Call graph built: 0.139000s
+2019-06-26 15:10:43,049 INFO Call graph edges: 22
+2019-06-26 15:10:43,162 INFO Finding taint models in /home/in062/PycharmProjects/check_pyre/static_analysis_example/stubs/taint
+2019-06-26 15:10:43,340 INFO Analysis fixpoint started for 904 overrides 3255 functions...
+2019-06-26 15:10:43,440 INFO Iteration #0. 4159 Callables [...]
+2019-06-26 15:10:43,541 INFO Processed 500 of 4159 callables
+2019-06-26 15:10:43,642 INFO Processed 1000 of 4159 callables
+2019-06-26 15:10:43,839 INFO Processed 1500 of 4159 callables
+2019-06-26 15:10:43,960 ERROR Found no definition for $toplevel (fun)
+
+2019-06-26 15:10:44,061 INFO Processed 2000 of 4159 callables
+2019-06-26 15:10:44,306 INFO Processed 2500 of 4159 callables
+2019-06-26 15:10:44,513 INFO Processed 3000 of 4159 callables
+2019-06-26 15:10:44,741 INFO Processed 3500 of 4159 callables
+2019-06-26 15:10:45,033 INFO Processed 4000 of 4159 callables
+2019-06-26 15:10:45,121 INFO Processed 4159 of 4159 callables
+2019-06-26 15:10:45,121 INFO Iteration #0, 4159 callables, heap size 18302272 took 1.781287s
+2019-06-26 15:10:45,187 INFO Iteration #1. 906 Callables [...]
+2019-06-26 15:10:45,239 INFO Processed 500 of 906 callables
+2019-06-26 15:10:45,253 INFO Processed 906 of 906 callables
+2019-06-26 15:10:45,253 INFO Iteration #1, 906 callables, heap size 18418880 took 0.132089s
+2019-06-26 15:10:45,253 INFO Iteration #2. 0 Callables []
+2019-06-26 15:10:45,354 INFO Fixpoint iterations: 2
+2019-06-26 15:10:45,486 PERFORMANCE Analysis fixpoint complete: 2.127000s
+2019-06-26 15:10:45,502 PERFORMANCE Analyze: 6.638000s

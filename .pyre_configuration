@@ -1,0 +1,13 @@
+{
+  "binary": "/home/in062/PycharmProjects/check_pyre/venv/bin/pyre.bin",
+  "source_directories": [
+    "./test",
+    "./local_test"
+  ],
+  "typeshed": "/home/in062/PycharmProjects/check_pyre/venv/lib/pyre_check/typeshed/",
+
+  "ignore_all_errors":[
+
+        "./local_test"
+  ]
+}

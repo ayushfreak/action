@@ -1,0 +1,647 @@
+2019-06-26 13:36:26,317 INFO No binary specified, looking for `pyre.bin` in PATH
+2019-06-26 13:36:26,317 INFO Found: `/home/in062/PycharmProjects/check_pyre/venv/bin/pyre.bin`
+2019-06-26 13:36:26,317 INFO No typeshed specified, looking for it
+2019-06-26 13:36:26,318 DEBUG Trying with: `/home/in062/PycharmProjects/check_pyre/venv/lib/python3.7/site-packages/pyre_check/pyre_check/typeshed/`
+2019-06-26 13:36:26,318 DEBUG Trying with: `/home/in062/PycharmProjects/check_pyre/venv/lib/python3.7/site-packages/pyre_check/typeshed/`
+2019-06-26 13:36:26,318 DEBUG Trying with: `/home/in062/PycharmProjects/check_pyre/venv/lib/python3.7/pyre_check/typeshed/`
+2019-06-26 13:36:26,318 DEBUG Trying with: `/home/in062/PycharmProjects/check_pyre/venv/lib/pyre_check/typeshed/`
+2019-06-26 13:36:26,318 INFO Found: `/home/in062/PycharmProjects/check_pyre/venv/lib/pyre_check/typeshed/`
+2019-06-26 13:36:26,319 INFO Constructing shared directory `/home/in062/PycharmProjects/check_pyre/.pyre/shared_analysis_directory_22940`
+2019-06-26 13:36:26,320 ERROR No targets or source directories to analyze.
+
+2019-06-26 13:36:52,352 PROMPT Also initialize a watchman configuration? [Y/n] 
+2019-06-26 13:36:55,308 INFO Binary found at `/home/in062/PycharmProjects/check_pyre/venv/bin/pyre.bin`
+2019-06-26 13:36:55,308 DEBUG Trying with: `/home/in062/PycharmProjects/check_pyre/venv/lib/python3.7/site-packages/pyre_check/pyre_check/typeshed/`
+2019-06-26 13:36:55,309 DEBUG Trying with: `/home/in062/PycharmProjects/check_pyre/venv/lib/python3.7/site-packages/pyre_check/typeshed/`
+2019-06-26 13:36:55,309 DEBUG Trying with: `/home/in062/PycharmProjects/check_pyre/venv/lib/python3.7/pyre_check/typeshed/`
+2019-06-26 13:36:55,309 DEBUG Trying with: `/home/in062/PycharmProjects/check_pyre/venv/lib/pyre_check/typeshed/`
+2019-06-26 13:36:55,309 PROMPT Which directory should pyre be initialized in? (Default: `.`): 
+2019-06-26 13:36:59,486 INFO Successfully initialized pyre! You can view the configuration at `/home/in062/PycharmProjects/check_pyre/.pyre_configuration`.
+2019-06-26 13:37:30,806 DEBUG Reading configuration `.pyre_configuration`...
+2019-06-26 13:37:30,807 DEBUG Found source_directories: `./test`
+2019-06-26 13:37:30,807 DEBUG Running `/home/in062/PycharmProjects/check_pyre/venv/bin/pyre.bin check -logging-sections parser -project-root /home/in062/PycharmProjects/check_pyre -filter-directories /home/in062/PycharmProjects/check_pyre/test -workers 1 -typeshed /home/in062/PycharmProjects/check_pyre/venv/lib/pyre_check/typeshed/ ./test`
+2019-06-26 13:37:30,821 INFO Finding type stubs in `/home/in062/PycharmProjects/check_pyre/test`...
+2019-06-26 13:37:30,827 INFO Finding type stubs in `/home/in062/PycharmProjects/check_pyre/venv/lib/pyre_check/typeshed/third_party`...
+2019-06-26 13:37:30,837 INFO Finding type stubs in `/home/in062/PycharmProjects/check_pyre/venv/lib/pyre_check/typeshed/stdlib`...
+2019-06-26 13:37:30,938 INFO Parsing 803 stubs and external sources...
+2019-06-26 13:37:31,665 PERFORMANCE Stubs parsed: 0.827000s
+2019-06-26 13:37:31,682 INFO Parsing 4 sources in `/home/in062/PycharmProjects/check_pyre/test`...
+2019-06-26 13:37:31,698 PERFORMANCE Sources parsed: 0.016000s
+2019-06-26 13:37:31,698 PERFORMANCE Registered ignores: 0.016000s
+2019-06-26 13:37:31,699 INFO Adding environment information to shared memory...
+2019-06-26 13:37:31,699 PERFORMANCE Added environment to shared memory: 0.000000s
+2019-06-26 13:37:31,799 INFO Building type environment...
+2019-06-26 13:37:33,487 PERFORMANCE Full environment built: 1.787000s
+2019-06-26 13:37:33,542 MEMORY Shared memory size (size: 15)
+2019-06-26 13:37:33,543 PERFORMANCE Filtered directories: 0.055000s
+2019-06-26 13:37:33,543 INFO Checking 5 sources...
+2019-06-26 13:37:33,581 INFO Running check `TypeCheck`...
+2019-06-26 13:37:33,581 INFO Processed 5 of 5 sources
+2019-06-26 13:37:33,581 PERFORMANCE Check_TypeCheck: 0.038000s
+2019-06-26 13:37:33,598 PERFORMANCE Analyzed sources: 0.038000s
+2019-06-26 13:37:33,607 PERFORMANCE Postprocessed: 0.016000s
+2019-06-26 13:37:33,619 PERFORMANCE Check: 2.789000s
+2019-06-26 13:37:33,619 ERROR Found 4 type errors!
+
+2019-06-26 13:38:48,766 DEBUG Reading configuration `.pyre_configuration`...
+2019-06-26 13:38:48,766 DEBUG Found source_directories: `./test`
+2019-06-26 13:38:48,766 WARNING Starting server at `./test`.
+
+2019-06-26 13:38:48,767 DEBUG Running `/home/in062/PycharmProjects/check_pyre/venv/bin/pyre.bin start -logging-sections parser -project-root /home/in062/PycharmProjects/check_pyre -filter-directories /home/in062/PycharmProjects/check_pyre/test -workers 1 -typeshed /home/in062/PycharmProjects/check_pyre/venv/lib/pyre_check/typeshed/ -expected-binary-version unversioned ./test`
+2019-06-26 13:38:48,778 INFO Starting up server...
+2019-06-26 13:38:48,779 INFO Running as pid: 23149
+2019-06-26 13:38:48,779 INFO Version: 247303953e0db56ba0ffb3a7bbb23f99da76b0c0
+2019-06-26 13:38:48,780 INFO Build info: Linux x86_64 @ Sat May 18 2019 (development build)
+2019-06-26 13:38:48,780 INFO Server starting in background
+2019-06-26 13:38:48,792 INFO Initialized file monitor.
+2019-06-26 13:38:48,794 INFO Waiting for server...
+2019-06-26 13:38:48,794 DEBUG Running `/home/in062/PycharmProjects/check_pyre/venv/bin/pyre.bin incremental -logging-sections parser -project-root /home/in062/PycharmProjects/check_pyre -typeshed /home/in062/PycharmProjects/check_pyre/venv/lib/pyre_check/typeshed/ -expected-binary-version unversioned ./test`
+2019-06-26 13:38:49,824 INFO Finding type stubs in `/home/in062/PycharmProjects/check_pyre/venv/lib/pyre_check/typeshed/third_party`...
+2019-06-26 13:38:49,824 INFO Finding type stubs in `/home/in062/PycharmProjects/check_pyre/venv/lib/pyre_check/typeshed/stdlib`...
+2019-06-26 13:38:49,824 INFO Parsing 803 stubs and external sources...
+2019-06-26 13:38:49,824 PERFORMANCE Stubs parsed: 0.817000s
+2019-06-26 13:38:49,825 INFO Parsing 4 sources in `/home/in062/PycharmProjects/check_pyre/test`...
+2019-06-26 13:38:49,825 PERFORMANCE Sources parsed: 0.016000s
+2019-06-26 13:38:49,825 PERFORMANCE Registered ignores: 0.016000s
+2019-06-26 13:38:49,825 INFO Adding environment information to shared memory...
+2019-06-26 13:38:49,826 PERFORMANCE Added environment to shared memory: 0.000000s
+2019-06-26 13:38:49,926 INFO Building type environment...
+2019-06-26 13:38:51,545 ERROR Found 4 type errors!
+
+2019-06-26 13:39:24,502 DEBUG Reading configuration `.pyre_configuration`...
+2019-06-26 13:39:24,503 DEBUG Found source_directories: `./test, ./local_test`
+2019-06-26 13:39:24,504 WARNING Starting server at `/home/in062/PycharmProjects/check_pyre/.pyre/shared_analysis_directory`.
+
+2019-06-26 13:39:24,505 INFO Constructing shared directory `/home/in062/PycharmProjects/check_pyre/.pyre/shared_analysis_directory`
+2019-06-26 13:39:24,509 PERFORMANCE Merged analysis directories in 0.004501s
+2019-06-26 13:39:24,512 DEBUG Running `/home/in062/PycharmProjects/check_pyre/venv/bin/pyre.bin start -logging-sections parser -project-root /home/in062/PycharmProjects/check_pyre -filter-directories /home/in062/PycharmProjects/check_pyre -workers 1 -typeshed /home/in062/PycharmProjects/check_pyre/venv/lib/pyre_check/typeshed/ -expected-binary-version unversioned /home/in062/PycharmProjects/check_pyre/.pyre/shared_analysis_directory`
+2019-06-26 13:39:24,524 INFO Starting up server...
+2019-06-26 13:39:24,525 INFO Running as pid: 23224
+2019-06-26 13:39:24,525 INFO Version: 247303953e0db56ba0ffb3a7bbb23f99da76b0c0
+2019-06-26 13:39:24,539 INFO Initialized file monitor.
+2019-06-26 13:39:24,540 INFO Waiting for server...
+2019-06-26 13:39:24,540 DEBUG Running `/home/in062/PycharmProjects/check_pyre/venv/bin/pyre.bin incremental -logging-sections parser -project-root /home/in062/PycharmProjects/check_pyre -typeshed /home/in062/PycharmProjects/check_pyre/venv/lib/pyre_check/typeshed/ -expected-binary-version unversioned /home/in062/PycharmProjects/check_pyre/.pyre/shared_analysis_directory`
+2019-06-26 13:39:24,626 INFO Build info: Linux x86_64 @ Sat May 18 2019 (development build)
+2019-06-26 13:39:25,558 INFO Finding type stubs in `/home/in062/PycharmProjects/check_pyre/.pyre/shared_analysis_directory`...
+2019-06-26 13:39:25,558 INFO Finding type stubs in `/home/in062/PycharmProjects/check_pyre/venv/lib/pyre_check/typeshed/third_party`...
+2019-06-26 13:39:25,559 INFO Finding type stubs in `/home/in062/PycharmProjects/check_pyre/venv/lib/pyre_check/typeshed/stdlib`...
+2019-06-26 13:39:25,559 INFO Parsing 803 stubs and external sources...
+2019-06-26 13:39:25,559 PERFORMANCE Stubs parsed: 0.811000s
+2019-06-26 13:39:25,560 INFO Parsing 5 sources in `/home/in062/PycharmProjects/check_pyre/.pyre/shared_analysis_directory`...
+2019-06-26 13:39:25,560 PERFORMANCE Sources parsed: 0.016000s
+2019-06-26 13:39:25,560 PERFORMANCE Registered ignores: 0.016000s
+2019-06-26 13:39:25,560 INFO Adding environment information to shared memory...
+2019-06-26 13:39:25,561 PERFORMANCE Added environment to shared memory: 0.000000s
+2019-06-26 13:39:25,661 INFO Building type environment...
+2019-06-26 13:39:27,296 ERROR Found 5 type errors!
+
+2019-06-26 13:40:45,639 INFO Received Watchman update for files ['/home/in062/PycharmProjects/check_pyre/test/test_pyre/data_class.py'].
+2019-06-26 13:40:45,640 INFO Received Watchman update for files ['/home/in062/PycharmProjects/check_pyre/test/test_pyre/data_class.py'].
+2019-06-26 13:40:45,642 INFO Notifying server of update to files ['/home/in062/PycharmProjects/check_pyre/.pyre/shared_analysis_directory/test_pyre/data_class.py'].
+2019-06-26 13:40:45,642 INFO Notifying server of update to files ['/home/in062/PycharmProjects/check_pyre/test/test_pyre/data_class.py'].
+2019-06-26 13:41:11,439 DEBUG Reading configuration `.pyre_configuration`...
+2019-06-26 13:41:11,439 DEBUG Found source_directories: `./test, ./local_test`
+2019-06-26 13:41:11,441 INFO Waiting for server...
+2019-06-26 13:41:11,441 DEBUG Running `/home/in062/PycharmProjects/check_pyre/venv/bin/pyre.bin incremental -logging-sections parser -project-root /home/in062/PycharmProjects/check_pyre -typeshed /home/in062/PycharmProjects/check_pyre/venv/lib/pyre_check/typeshed/ -expected-binary-version unversioned /home/in062/PycharmProjects/check_pyre/.pyre/shared_analysis_directory`
+2019-06-26 13:41:11,527 ERROR Found 4 type errors!
+
+2019-06-26 13:42:18,607 DEBUG Reading configuration `.pyre_configuration`...
+2019-06-26 13:42:18,608 DEBUG Found source_directories: `./test, ./local_test`
+2019-06-26 13:42:18,609 INFO Waiting for server...
+2019-06-26 13:42:18,610 DEBUG Running `/home/in062/PycharmProjects/check_pyre/venv/bin/pyre.bin incremental -logging-sections parser -project-root /home/in062/PycharmProjects/check_pyre -typeshed /home/in062/PycharmProjects/check_pyre/venv/lib/pyre_check/typeshed/ -expected-binary-version unversioned /home/in062/PycharmProjects/check_pyre/.pyre/shared_analysis_directory`
+2019-06-26 13:42:18,668 ERROR Found 4 type errors!
+
+2019-06-26 13:45:23,070 DEBUG Reading configuration `.pyre_configuration`...
+2019-06-26 13:45:23,070 DEBUG Found source_directories: `./test, ./local_test`
+2019-06-26 13:45:23,072 INFO Waiting for server...
+2019-06-26 13:45:23,072 DEBUG Running `/home/in062/PycharmProjects/check_pyre/venv/bin/pyre.bin incremental -logging-sections parser -project-root /home/in062/PycharmProjects/check_pyre -typeshed /home/in062/PycharmProjects/check_pyre/venv/lib/pyre_check/typeshed/ -expected-binary-version unversioned /home/in062/PycharmProjects/check_pyre/.pyre/shared_analysis_directory`
+2019-06-26 13:45:23,126 ERROR Found 3 type errors!
+
+2019-06-26 13:47:28,377 INFO Received Watchman update for files ['/home/in062/PycharmProjects/check_pyre/test/stubs/file.pyi'].
+2019-06-26 13:47:28,377 INFO Received Watchman update for files ['/home/in062/PycharmProjects/check_pyre/test/stubs/file.pyi'].
+2019-06-26 13:47:28,378 INFO Notifying server of update to files ['/home/in062/PycharmProjects/check_pyre/test/stubs/file.pyi'].
+2019-06-26 13:47:28,378 INFO Notifying server of update to files ['/home/in062/PycharmProjects/check_pyre/.pyre/shared_analysis_directory/stubs/file.pyi'].
+2019-06-26 13:47:32,710 DEBUG Reading configuration `.pyre_configuration`...
+2019-06-26 13:47:32,710 DEBUG Found source_directories: `./test, ./local_test`
+2019-06-26 13:47:32,711 INFO Waiting for server...
+2019-06-26 13:47:32,712 DEBUG Running `/home/in062/PycharmProjects/check_pyre/venv/bin/pyre.bin incremental -logging-sections parser -project-root /home/in062/PycharmProjects/check_pyre -typeshed /home/in062/PycharmProjects/check_pyre/venv/lib/pyre_check/typeshed/ -expected-binary-version unversioned /home/in062/PycharmProjects/check_pyre/.pyre/shared_analysis_directory`
+2019-06-26 13:47:32,727 ERROR Found 3 type errors!
+
+2019-06-26 13:51:10,647 DEBUG Reading configuration `.pyre_configuration`...
+2019-06-26 13:51:10,648 DEBUG Found source_directories: `./test, ./local_test`
+2019-06-26 13:51:10,649 DEBUG Running `/home/in062/PycharmProjects/check_pyre/venv/bin/pyre.bin query attributes(local_test/test/pyre_test.test) /home/in062/PycharmProjects/check_pyre/.pyre/shared_analysis_directory`
+2019-06-26 13:51:10,661 INFO Possible queries:
+  attributes(class_name): Returns a list of attributes, including functions, for a class.
+  coverage_in_file('path'): Gives detailed coverage information for the given path.
+  dump_dependencies('path'): Writes the dependencies of 'path' to `.pyre/dependencies.dot`.
+  is_compatible_with(T1, T2): Returns whether T2 can be used in place of T1.
+  join(T1, T2): Returns the least common supertype of T1 and T2.
+  less_or_equal(T1, T2)
+  meet(T1, T2): Returns the greatest common subtype of T1 and T2.
+  methods(class_name): Evaluates to the list of methods for `class_name`.
+  normalize_type(T): Resolves all type aliases for `T`.
+  path_of_module(module): Gives an absolute path for `module`.
+  save_server_state('path'): Saves Pyre's serialized state into `path`.
+  signature(function_name): Gives a human-readable signature for `function_name`.
+  superclasses(class_name): Returns the list of superclasses for `class_name`.
+  type(expression): Evaluates the type of `expression`.
+  type_at_position('path', line, column): Returns the type for the given cursor.
+  types_in_file('path'): Returns the list of all types for a given path.
+2019-06-26 13:51:51,643 DEBUG Reading configuration `/home/in062/PycharmProjects/check_pyre/local_test/.pyre_configuration.local`...
+2019-06-26 13:51:51,643 DEBUG Found source_directories: `.`
+2019-06-26 13:51:51,644 DEBUG Reading configuration `.pyre_configuration`...
+2019-06-26 13:51:51,644 ERROR Invalid configuration: Binary at `/home/in062/PycharmProjects/pyre_check.py/venv/bin/pyre.bin` does not exist.
+
+2019-06-26 13:53:12,353 DEBUG Reading configuration `.pyre_configuration`...
+2019-06-26 13:53:12,354 DEBUG Found source_directories: `./test, ./local_test`
+2019-06-26 13:53:12,355 DEBUG Running `/home/in062/PycharmProjects/check_pyre/venv/bin/pyre.bin query attributes(ignore.ignore) /home/in062/PycharmProjects/check_pyre/.pyre/shared_analysis_directory`
+2019-06-26 13:53:12,457 INFO Connected to server
+2019-06-26 13:53:53,485 INFO Received Watchman update for files ['/home/in062/PycharmProjects/check_pyre/test/stubs/file.pyi', '/home/in062/PycharmProjects/check_pyre/test/test_ignore/ignore.py'].
+2019-06-26 13:53:53,486 INFO Notifying server of update to files ['/home/in062/PycharmProjects/check_pyre/.pyre/shared_analysis_directory/stubs/file.pyi', '/home/in062/PycharmProjects/check_pyre/.pyre/shared_analysis_directory/test_ignore/ignore.py'].
+2019-06-26 13:53:53,486 INFO Received Watchman update for files ['/home/in062/PycharmProjects/check_pyre/test/stubs/file.pyi', '/home/in062/PycharmProjects/check_pyre/test/test_ignore/ignore.py'].
+2019-06-26 13:53:53,486 INFO Notifying server of update to files ['/home/in062/PycharmProjects/check_pyre/test/stubs/file.pyi', '/home/in062/PycharmProjects/check_pyre/test/test_ignore/ignore.py'].
+2019-06-26 13:54:04,782 DEBUG Reading configuration `.pyre_configuration`...
+2019-06-26 13:54:04,782 DEBUG Found source_directories: `./test, ./local_test`
+2019-06-26 13:54:04,783 DEBUG Running `/home/in062/PycharmProjects/check_pyre/venv/bin/pyre.bin query attributes(ignore.ignore_test) /home/in062/PycharmProjects/check_pyre/.pyre/shared_analysis_directory`
+2019-06-26 13:54:04,891 INFO Connected to server
+2019-06-26 13:55:31,040 DEBUG Reading configuration `.pyre_configuration`...
+2019-06-26 13:55:31,040 DEBUG Found source_directories: `./test, ./local_test`
+2019-06-26 13:55:31,041 DEBUG Running `/home/in062/PycharmProjects/check_pyre/venv/bin/pyre.bin query join(typing.Iterable[int], typing.Iterable[str]) /home/in062/PycharmProjects/check_pyre/.pyre/shared_analysis_directory`
+2019-06-26 13:55:31,062 INFO Connected to server
+2019-06-26 13:56:38,488 INFO Received Watchman update for files ['/home/in062/PycharmProjects/check_pyre/query_test.py'].
+2019-06-26 13:56:38,488 INFO Received Watchman update for files ['/home/in062/PycharmProjects/check_pyre/query_test.py'].
+2019-06-26 13:56:38,488 INFO Skipping update: Pyre doesn't track any of these files.
+2019-06-26 13:56:38,488 INFO Detected new paths: /home/in062/PycharmProjects/check_pyre/query_test.py.
+2019-06-26 13:56:38,488 ERROR Buck root couldn't be found. Returning empty analysis directory mapping.
+
+2019-06-26 13:56:38,489 INFO Skipping update: Pyre doesn't track any of these files.
+2019-06-26 13:57:07,854 DEBUG Reading configuration `.pyre_configuration`...
+2019-06-26 13:57:07,854 DEBUG Found source_directories: `./test, ./local_test`
+2019-06-26 13:57:07,856 DEBUG Running `/home/in062/PycharmProjects/check_pyre/venv/bin/pyre.bin query attributes(query_test.C) /home/in062/PycharmProjects/check_pyre/.pyre/shared_analysis_directory`
+2019-06-26 13:57:07,906 INFO Connected to server
+2019-06-26 13:57:19,132 DEBUG Reading configuration `.pyre_configuration`...
+2019-06-26 13:57:19,132 DEBUG Found source_directories: `./test, ./local_test`
+2019-06-26 13:57:19,133 INFO Constructing shared directory `/home/in062/PycharmProjects/check_pyre/.pyre/shared_analysis_directory_24339`
+2019-06-26 13:57:19,138 PERFORMANCE Merged analysis directories in 0.005504s
+2019-06-26 13:57:19,141 DEBUG Running `/home/in062/PycharmProjects/check_pyre/venv/bin/pyre.bin check -logging-sections parser -project-root /home/in062/PycharmProjects/check_pyre -filter-directories /home/in062/PycharmProjects/check_pyre -workers 1 -typeshed /home/in062/PycharmProjects/check_pyre/venv/lib/pyre_check/typeshed/ /home/in062/PycharmProjects/check_pyre/.pyre/shared_analysis_directory_24339`
+2019-06-26 13:57:19,155 INFO Finding type stubs in `/home/in062/PycharmProjects/check_pyre/.pyre/shared_analysis_directory_24339`...
+2019-06-26 13:57:19,160 INFO Finding type stubs in `/home/in062/PycharmProjects/check_pyre/venv/lib/pyre_check/typeshed/third_party`...
+2019-06-26 13:57:19,170 INFO Finding type stubs in `/home/in062/PycharmProjects/check_pyre/venv/lib/pyre_check/typeshed/stdlib`...
+2019-06-26 13:57:19,271 INFO Parsing 803 stubs and external sources...
+2019-06-26 13:57:19,991 PERFORMANCE Stubs parsed: 0.820000s
+2019-06-26 13:57:20,007 INFO Parsing 5 sources in `/home/in062/PycharmProjects/check_pyre/.pyre/shared_analysis_directory_24339`...
+2019-06-26 13:57:20,024 PERFORMANCE Sources parsed: 0.016000s
+2019-06-26 13:57:20,024 PERFORMANCE Registered ignores: 0.016000s
+2019-06-26 13:57:20,025 INFO Adding environment information to shared memory...
+2019-06-26 13:57:20,025 PERFORMANCE Added environment to shared memory: 0.000000s
+2019-06-26 13:57:20,125 INFO Building type environment...
+2019-06-26 13:57:21,808 PERFORMANCE Full environment built: 1.783000s
+2019-06-26 13:57:21,864 MEMORY Shared memory size (size: 15)
+2019-06-26 13:57:21,865 PERFORMANCE Filtered directories: 0.056000s
+2019-06-26 13:57:21,865 INFO Checking 6 sources...
+2019-06-26 13:57:21,902 INFO Running check `TypeCheck`...
+2019-06-26 13:57:21,903 INFO Processed 6 of 6 sources
+2019-06-26 13:57:21,903 PERFORMANCE Check_TypeCheck: 0.038000s
+2019-06-26 13:57:21,920 PERFORMANCE Analyzed sources: 0.038000s
+2019-06-26 13:57:21,929 PERFORMANCE Postprocessed: 0.016000s
+2019-06-26 13:57:21,941 PERFORMANCE Check: 2.777000s
+2019-06-26 13:57:21,942 ERROR Found 5 type errors!
+
+2019-06-26 13:57:32,363 DEBUG Reading configuration `.pyre_configuration`...
+2019-06-26 13:57:32,363 DEBUG Found source_directories: `./test, ./local_test`
+2019-06-26 13:57:32,365 DEBUG Running `/home/in062/PycharmProjects/check_pyre/venv/bin/pyre.bin query attributes(query_test.C) /home/in062/PycharmProjects/check_pyre/.pyre/shared_analysis_directory`
+2019-06-26 13:57:32,459 INFO Connected to server
+2019-06-26 13:57:38,251 INFO Received Watchman update for files ['/home/in062/PycharmProjects/check_pyre/test/query_test.py', '/home/in062/PycharmProjects/check_pyre/query_test.py'].
+2019-06-26 13:57:38,251 INFO Detected deleted paths: `/home/in062/PycharmProjects/check_pyre/query_test.py`.
+2019-06-26 13:57:38,252 INFO Detected new paths: /home/in062/PycharmProjects/check_pyre/test/query_test.py.
+2019-06-26 13:57:38,252 ERROR Buck root couldn't be found. Returning empty analysis directory mapping.
+
+2019-06-26 13:57:38,252 INFO Skipping update: Pyre doesn't track any of these files.
+2019-06-26 13:57:38,252 INFO Received Watchman update for files ['/home/in062/PycharmProjects/check_pyre/test/query_test.py', '/home/in062/PycharmProjects/check_pyre/query_test.py'].
+2019-06-26 13:57:38,252 INFO Notifying server of update to files ['/home/in062/PycharmProjects/check_pyre/test/query_test.py'].
+2019-06-26 13:57:41,605 DEBUG Reading configuration `.pyre_configuration`...
+2019-06-26 13:57:41,605 DEBUG Found source_directories: `./test, ./local_test`
+2019-06-26 13:57:41,607 INFO Constructing shared directory `/home/in062/PycharmProjects/check_pyre/.pyre/shared_analysis_directory_24463`
+2019-06-26 13:57:41,612 PERFORMANCE Merged analysis directories in 0.005952s
+2019-06-26 13:57:41,616 DEBUG Running `/home/in062/PycharmProjects/check_pyre/venv/bin/pyre.bin check -logging-sections parser -project-root /home/in062/PycharmProjects/check_pyre -filter-directories /home/in062/PycharmProjects/check_pyre -workers 1 -typeshed /home/in062/PycharmProjects/check_pyre/venv/lib/pyre_check/typeshed/ /home/in062/PycharmProjects/check_pyre/.pyre/shared_analysis_directory_24463`
+2019-06-26 13:57:41,630 INFO Finding type stubs in `/home/in062/PycharmProjects/check_pyre/.pyre/shared_analysis_directory_24463`...
+2019-06-26 13:57:41,636 INFO Finding type stubs in `/home/in062/PycharmProjects/check_pyre/venv/lib/pyre_check/typeshed/third_party`...
+2019-06-26 13:57:41,646 INFO Finding type stubs in `/home/in062/PycharmProjects/check_pyre/venv/lib/pyre_check/typeshed/stdlib`...
+2019-06-26 13:57:41,746 INFO Parsing 803 stubs and external sources...
+2019-06-26 13:57:42,481 PERFORMANCE Stubs parsed: 0.834000s
+2019-06-26 13:57:42,499 INFO Parsing 6 sources in `/home/in062/PycharmProjects/check_pyre/.pyre/shared_analysis_directory_24463`...
+2019-06-26 13:57:42,515 PERFORMANCE Sources parsed: 0.018000s
+2019-06-26 13:57:42,516 PERFORMANCE Registered ignores: 0.016000s
+2019-06-26 13:57:42,516 INFO Adding environment information to shared memory...
+2019-06-26 13:57:42,517 PERFORMANCE Added environment to shared memory: 0.000000s
+2019-06-26 13:57:42,617 INFO Building type environment...
+2019-06-26 13:57:44,301 PERFORMANCE Full environment built: 1.783000s
+2019-06-26 13:57:44,357 MEMORY Shared memory size (size: 15)
+2019-06-26 13:57:44,357 PERFORMANCE Filtered directories: 0.055000s
+2019-06-26 13:57:44,358 INFO Checking 7 sources...
+2019-06-26 13:57:44,396 INFO Running check `TypeCheck`...
+2019-06-26 13:57:44,397 INFO Processed 7 of 7 sources
+2019-06-26 13:57:44,397 PERFORMANCE Check_TypeCheck: 0.039000s
+2019-06-26 13:57:44,414 PERFORMANCE Analyzed sources: 0.039000s
+2019-06-26 13:57:44,423 PERFORMANCE Postprocessed: 0.017000s
+2019-06-26 13:57:44,436 PERFORMANCE Check: 2.794000s
+2019-06-26 13:57:44,437 ERROR Found 5 type errors!
+
+2019-06-26 13:57:48,830 DEBUG Reading configuration `.pyre_configuration`...
+2019-06-26 13:57:48,830 DEBUG Found source_directories: `./test, ./local_test`
+2019-06-26 13:57:48,832 INFO Waiting for server...
+2019-06-26 13:57:48,832 DEBUG Running `/home/in062/PycharmProjects/check_pyre/venv/bin/pyre.bin incremental -logging-sections parser -project-root /home/in062/PycharmProjects/check_pyre -typeshed /home/in062/PycharmProjects/check_pyre/venv/lib/pyre_check/typeshed/ -expected-binary-version unversioned /home/in062/PycharmProjects/check_pyre/.pyre/shared_analysis_directory`
+2019-06-26 13:57:48,886 ERROR Found 5 type errors!
+
+2019-06-26 13:57:56,195 DEBUG Reading configuration `.pyre_configuration`...
+2019-06-26 13:57:56,195 DEBUG Found source_directories: `./test, ./local_test`
+2019-06-26 13:57:56,197 DEBUG Running `/home/in062/PycharmProjects/check_pyre/venv/bin/pyre.bin stop /home/in062/PycharmProjects/check_pyre/.pyre/shared_analysis_directory`
+2019-06-26 13:57:56,210 INFO Stopped server at `/home/in062/PycharmProjects/check_pyre/.pyre/shared_analysis_directory`
+2019-06-26 13:57:56,210 WARNING Starting server at `/home/in062/PycharmProjects/check_pyre/.pyre/shared_analysis_directory`.
+
+2019-06-26 13:57:56,211 INFO Constructing shared directory `/home/in062/PycharmProjects/check_pyre/.pyre/shared_analysis_directory`
+2019-06-26 13:57:56,221 PERFORMANCE Merged analysis directories in 0.009673s
+2019-06-26 13:57:56,224 DEBUG Running `/home/in062/PycharmProjects/check_pyre/venv/bin/pyre.bin start -logging-sections parser -project-root /home/in062/PycharmProjects/check_pyre -filter-directories /home/in062/PycharmProjects/check_pyre -workers 1 -typeshed /home/in062/PycharmProjects/check_pyre/venv/lib/pyre_check/typeshed/ -expected-binary-version unversioned /home/in062/PycharmProjects/check_pyre/.pyre/shared_analysis_directory`
+2019-06-26 13:57:56,239 INFO Starting up server...
+2019-06-26 13:57:56,240 INFO Running as pid: 24660
+2019-06-26 13:57:56,240 INFO Version: 247303953e0db56ba0ffb3a7bbb23f99da76b0c0
+2019-06-26 13:57:56,253 INFO Initialized file monitor.
+2019-06-26 13:57:56,261 INFO Waiting for server...
+2019-06-26 13:57:56,262 DEBUG Running `/home/in062/PycharmProjects/check_pyre/venv/bin/pyre.bin incremental -logging-sections parser -project-root /home/in062/PycharmProjects/check_pyre -typeshed /home/in062/PycharmProjects/check_pyre/venv/lib/pyre_check/typeshed/ -expected-binary-version unversioned /home/in062/PycharmProjects/check_pyre/.pyre/shared_analysis_directory`
+2019-06-26 13:57:56,310 INFO Server stopped, polling for deletion of socket.
+2019-06-26 13:57:56,341 INFO Build info: Linux x86_64 @ Sat May 18 2019 (development build)
+2019-06-26 13:57:57,284 INFO Finding type stubs in `/home/in062/PycharmProjects/check_pyre/.pyre/shared_analysis_directory`...
+2019-06-26 13:57:57,284 INFO Finding type stubs in `/home/in062/PycharmProjects/check_pyre/venv/lib/pyre_check/typeshed/third_party`...
+2019-06-26 13:57:57,284 INFO Finding type stubs in `/home/in062/PycharmProjects/check_pyre/venv/lib/pyre_check/typeshed/stdlib`...
+2019-06-26 13:57:57,284 INFO Parsing 803 stubs and external sources...
+2019-06-26 13:57:57,285 PERFORMANCE Stubs parsed: 0.817000s
+2019-06-26 13:57:57,285 INFO Parsing 6 sources in `/home/in062/PycharmProjects/check_pyre/.pyre/shared_analysis_directory`...
+2019-06-26 13:57:57,285 PERFORMANCE Sources parsed: 0.018000s
+2019-06-26 13:57:57,285 PERFORMANCE Registered ignores: 0.016000s
+2019-06-26 13:57:57,285 INFO Adding environment information to shared memory...
+2019-06-26 13:57:57,285 PERFORMANCE Added environment to shared memory: 0.000000s
+2019-06-26 13:57:57,386 INFO Building type environment...
+2019-06-26 13:57:59,024 ERROR Found 5 type errors!
+
+2019-06-26 13:58:03,663 DEBUG Reading configuration `.pyre_configuration`...
+2019-06-26 13:58:03,663 DEBUG Found source_directories: `./test, ./local_test`
+2019-06-26 13:58:03,665 DEBUG Running `/home/in062/PycharmProjects/check_pyre/venv/bin/pyre.bin query attributes(query_test.C) /home/in062/PycharmProjects/check_pyre/.pyre/shared_analysis_directory`
+2019-06-26 13:58:03,735 INFO Connected to server
+2019-06-26 13:58:27,385 DEBUG Reading configuration `.pyre_configuration`...
+2019-06-26 13:58:27,385 DEBUG Found source_directories: `./test, ./local_test`
+2019-06-26 13:58:27,387 DEBUG Running `/home/in062/PycharmProjects/check_pyre/venv/bin/pyre.bin query attributes(query_test.C) /home/in062/PycharmProjects/check_pyre/.pyre/shared_analysis_directory`
+2019-06-26 13:58:27,481 INFO Connected to server
+2019-06-26 14:01:51,735 INFO Received Watchman update for files ['/home/in062/PycharmProjects/check_pyre/test/query_test.py'].
+2019-06-26 14:01:51,736 INFO Notifying server of update to files ['/home/in062/PycharmProjects/check_pyre/test/query_test.py'].
+2019-06-26 14:01:51,734 INFO Received Watchman update for files ['/home/in062/PycharmProjects/check_pyre/test/query_test.py'].
+2019-06-26 14:01:51,737 INFO Notifying server of update to files ['/home/in062/PycharmProjects/check_pyre/.pyre/shared_analysis_directory/query_test.py'].
+2019-06-26 14:02:16,854 DEBUG Reading configuration `.pyre_configuration`...
+2019-06-26 14:02:16,854 DEBUG Found source_directories: `./test, ./local_test`
+2019-06-26 14:02:16,855 DEBUG Running `/home/in062/PycharmProjects/check_pyre/venv/bin/pyre.bin query normalize_type(query_test.B) /home/in062/PycharmProjects/check_pyre/.pyre/shared_analysis_directory`
+2019-06-26 14:02:16,906 INFO Connected to server
+2019-06-26 14:04:00,382 DEBUG Reading configuration `.pyre_configuration`...
+2019-06-26 14:04:00,382 DEBUG Found source_directories: `./test, ./local_test`
+2019-06-26 14:04:00,384 DEBUG Running `/home/in062/PycharmProjects/check_pyre/venv/bin/pyre.bin stop /home/in062/PycharmProjects/check_pyre/.pyre/shared_analysis_directory`
+2019-06-26 14:04:00,397 INFO Server stopped, polling for deletion of socket.
+2019-06-26 14:04:00,398 INFO Stopped server at `/home/in062/PycharmProjects/check_pyre/.pyre/shared_analysis_directory`
+2019-06-26 14:04:03,451 DEBUG Reading configuration `.pyre_configuration`...
+2019-06-26 14:04:03,452 DEBUG Found source_directories: `./test, ./local_test`
+2019-06-26 14:04:03,453 DEBUG Running `/home/in062/PycharmProjects/check_pyre/venv/bin/pyre.bin query normalize_type(query_test.B) /home/in062/PycharmProjects/check_pyre/.pyre/shared_analysis_directory`
+2019-06-26 14:04:03,566 INFO Waiting for server...
+2019-06-26 14:04:04,566 INFO Waiting for server...
+2019-06-26 14:04:05,566 INFO Waiting for server...
+2019-06-26 14:04:06,467 ERROR Could not connect to server after 3 retries
+Uncaught exception:
+
+  Server.Operations.ConnectionFailure
+
+Raised at file "server/operations.ml", line 220, characters 6-29
+Called from file "server/operations.ml", line 252, characters 24-33
+Called from file "command/queryCommand.ml", line 24, characters 22-73
+Called from file "service/scheduler.ml", line 47, characters 17-27
+Re-raised at file "service/scheduler.ml", line 51, characters 4-15
+Called from file "src/command.ml", line 2734, characters 6-97
+Called from file "src/exn.ml", line 113, characters 6-10
+
+2019-06-26 14:04:06,467 ERROR Client exited with error code 1
+
+2019-06-26 14:04:49,145 DEBUG Reading configuration `.pyre_configuration`...
+2019-06-26 14:04:49,145 DEBUG Found source_directories: `./test, ./local_test`
+2019-06-26 14:04:49,146 WARNING Starting server at `/home/in062/PycharmProjects/check_pyre/.pyre/shared_analysis_directory`.
+
+2019-06-26 14:04:49,147 INFO Constructing shared directory `/home/in062/PycharmProjects/check_pyre/.pyre/shared_analysis_directory`
+2019-06-26 14:04:49,153 PERFORMANCE Merged analysis directories in 0.005962s
+2019-06-26 14:04:49,156 DEBUG Running `/home/in062/PycharmProjects/check_pyre/venv/bin/pyre.bin start -logging-sections parser -project-root /home/in062/PycharmProjects/check_pyre -filter-directories /home/in062/PycharmProjects/check_pyre -workers 1 -typeshed /home/in062/PycharmProjects/check_pyre/venv/lib/pyre_check/typeshed/ -expected-binary-version unversioned /home/in062/PycharmProjects/check_pyre/.pyre/shared_analysis_directory`
+2019-06-26 14:04:49,168 INFO Starting up server...
+2019-06-26 14:04:49,168 INFO Running as pid: 25286
+2019-06-26 14:04:49,168 INFO Version: 247303953e0db56ba0ffb3a7bbb23f99da76b0c0
+2019-06-26 14:04:49,169 INFO Build info: Linux x86_64 @ Sat May 18 2019 (development build)
+2019-06-26 14:04:49,221 INFO Initialized file monitor.
+2019-06-26 14:04:49,222 INFO Waiting for server...
+2019-06-26 14:04:49,222 DEBUG Running `/home/in062/PycharmProjects/check_pyre/venv/bin/pyre.bin incremental -logging-sections parser -project-root /home/in062/PycharmProjects/check_pyre -typeshed /home/in062/PycharmProjects/check_pyre/venv/lib/pyre_check/typeshed/ -expected-binary-version unversioned /home/in062/PycharmProjects/check_pyre/.pyre/shared_analysis_directory`
+2019-06-26 14:04:49,272 INFO Server starting in background
+2019-06-26 14:04:50,239 INFO Parsing 803 stubs and external sources...
+2019-06-26 14:04:50,239 PERFORMANCE Stubs parsed: 0.826000s
+2019-06-26 14:04:50,239 INFO Parsing 6 sources in `/home/in062/PycharmProjects/check_pyre/.pyre/shared_analysis_directory`...
+2019-06-26 14:04:50,240 PERFORMANCE Sources parsed: 0.018000s
+2019-06-26 14:04:50,240 PERFORMANCE Registered ignores: 0.016000s
+2019-06-26 14:04:50,240 INFO Adding environment information to shared memory...
+2019-06-26 14:04:50,240 PERFORMANCE Added environment to shared memory: 0.000000s
+2019-06-26 14:04:50,341 INFO Building type environment...
+2019-06-26 14:04:51,955 ERROR Found 5 type errors!
+
+2019-06-26 14:06:56,206 DEBUG Reading configuration `.pyre_configuration`...
+2019-06-26 14:06:56,206 DEBUG Found source_directories: `./test, ./local_test`
+2019-06-26 14:06:56,208 DEBUG Running `/home/in062/PycharmProjects/check_pyre/venv/bin/pyre.bin query types_in_file('query_test.py') /home/in062/PycharmProjects/check_pyre/.pyre/shared_analysis_directory`
+2019-06-26 14:06:56,293 INFO Connected to server
+2019-06-26 14:07:21,283 DEBUG Reading configuration `.pyre_configuration`...
+2019-06-26 14:07:21,284 DEBUG Found source_directories: `./test, ./local_test`
+2019-06-26 14:07:21,285 DEBUG Running `/home/in062/PycharmProjects/check_pyre/venv/bin/pyre.bin query types_in_file('query_test.py') /home/in062/PycharmProjects/check_pyre/.pyre/shared_analysis_directory`
+2019-06-26 14:07:21,333 INFO Connected to server
+2019-06-26 15:02:34,957 INFO Received Watchman update for files ['/home/in062/PycharmProjects/check_pyre/static_analysis_example/source.py'].
+2019-06-26 15:02:34,957 INFO Detected new paths: /home/in062/PycharmProjects/check_pyre/static_analysis_example/source.py.
+2019-06-26 15:02:34,958 ERROR Buck root couldn't be found. Returning empty analysis directory mapping.
+
+2019-06-26 15:02:34,958 INFO Skipping update: Pyre doesn't track any of these files.
+2019-06-26 15:02:34,958 INFO Received Watchman update for files ['/home/in062/PycharmProjects/check_pyre/static_analysis_example/source.py'].
+2019-06-26 15:02:34,958 INFO Skipping update: Pyre doesn't track any of these files.
+2019-06-26 15:03:31,330 INFO Received Watchman update for files ['/home/in062/PycharmProjects/check_pyre/static_analysis_example/source.py'].
+2019-06-26 15:03:31,330 INFO Received Watchman update for files ['/home/in062/PycharmProjects/check_pyre/static_analysis_example/source.py'].
+2019-06-26 15:03:31,331 INFO Skipping update: Pyre doesn't track any of these files.
+2019-06-26 15:03:31,331 INFO Detected new paths: /home/in062/PycharmProjects/check_pyre/static_analysis_example/source.py.
+2019-06-26 15:03:31,331 ERROR Buck root couldn't be found. Returning empty analysis directory mapping.
+
+2019-06-26 15:03:31,332 INFO Skipping update: Pyre doesn't track any of these files.
+2019-06-26 15:07:37,041 DEBUG Reading configuration `.pyre_configuration`...
+2019-06-26 15:07:37,041 DEBUG Found source_directories: `./test, ./local_test`
+2019-06-26 15:07:37,043 DEBUG Running `/home/in062/PycharmProjects/check_pyre/venv/bin/pyre.bin analyze -logging-sections parser -project-root /home/in062/PycharmProjects/check_pyre -filter-directories /home/in062/PycharmProjects/check_pyre -workers 1 -typeshed /home/in062/PycharmProjects/check_pyre/venv/lib/pyre_check/typeshed/ /home/in062/PycharmProjects/check_pyre/.pyre/shared_analysis_directory`
+2019-06-26 15:07:37,057 INFO Finding type stubs in `/home/in062/PycharmProjects/check_pyre/.pyre/shared_analysis_directory`...
+2019-06-26 15:07:37,063 INFO Finding type stubs in `/home/in062/PycharmProjects/check_pyre/venv/lib/pyre_check/typeshed/third_party`...
+2019-06-26 15:07:37,072 INFO Finding type stubs in `/home/in062/PycharmProjects/check_pyre/venv/lib/pyre_check/typeshed/stdlib`...
+2019-06-26 15:07:37,173 INFO Parsing 803 stubs and external sources...
+2019-06-26 15:07:37,895 PERFORMANCE Stubs parsed: 0.821000s
+2019-06-26 15:07:37,913 INFO Parsing 6 sources in `/home/in062/PycharmProjects/check_pyre/.pyre/shared_analysis_directory`...
+2019-06-26 15:07:37,930 PERFORMANCE Sources parsed: 0.018000s
+2019-06-26 15:07:37,930 PERFORMANCE Registered ignores: 0.016000s
+2019-06-26 15:07:37,931 INFO Adding environment information to shared memory...
+2019-06-26 15:07:37,931 PERFORMANCE Added environment to shared memory: 0.000000s
+2019-06-26 15:07:38,031 INFO Building type environment...
+2019-06-26 15:07:39,704 PERFORMANCE Full environment built: 1.771000s
+2019-06-26 15:07:39,759 MEMORY Shared memory size (size: 15)
+2019-06-26 15:07:39,760 PERFORMANCE Filtered directories: 0.055000s
+2019-06-26 15:07:39,760 INFO Checking 7 sources...
+2019-06-26 15:07:39,800 INFO Running check `TypeCheck`...
+2019-06-26 15:07:39,800 INFO Processed 7 of 7 sources
+2019-06-26 15:07:39,800 PERFORMANCE Check_TypeCheck: 0.040000s
+2019-06-26 15:07:39,817 PERFORMANCE Analyzed sources: 0.040000s
+2019-06-26 15:07:39,817 PERFORMANCE Postprocessed: 0.016000s
+2019-06-26 15:07:39,917 INFO Recording overrides...
+2019-06-26 15:07:41,038 PERFORMANCE Overrides recorded: 1.220000s
+2019-06-26 15:07:41,139 INFO Building call graph...
+2019-06-26 15:07:41,182 PERFORMANCE Call graph built: 0.143000s
+2019-06-26 15:07:41,282 INFO Call graph edges: 32
+2019-06-26 15:07:41,563 INFO Analysis fixpoint started for 904 overrides 3275 functions...
+2019-06-26 15:07:41,663 INFO Iteration #0. 4179 Callables [...]
+2019-06-26 15:07:41,765 INFO Processed 500 of 4179 callables
+2019-06-26 15:07:41,866 INFO Processed 1000 of 4179 callables
+2019-06-26 15:07:42,048 INFO Processed 1500 of 4179 callables
+2019-06-26 15:07:42,158 ERROR Found no definition for $toplevel (fun)
+
+2019-06-26 15:07:42,259 INFO Processed 2000 of 4179 callables
+2019-06-26 15:07:42,488 INFO Processed 2500 of 4179 callables
+2019-06-26 15:07:42,673 INFO Processed 3000 of 4179 callables
+2019-06-26 15:07:42,898 INFO Processed 3500 of 4179 callables
+2019-06-26 15:07:43,150 INFO Processed 4000 of 4179 callables
+2019-06-26 15:07:43,216 INFO Processed 4179 of 4179 callables
+2019-06-26 15:07:43,217 INFO Iteration #0, 4179 callables, heap size 18329856 took 1.651896s
+2019-06-26 15:07:43,278 INFO Iteration #1. 905 Callables [...]
+2019-06-26 15:07:43,323 INFO Processed 500 of 905 callables
+2019-06-26 15:07:43,336 INFO Processed 905 of 905 callables
+2019-06-26 15:07:43,337 INFO Iteration #1, 905 callables, heap size 18445888 took 0.119754s
+2019-06-26 15:07:43,337 INFO Iteration #2. 0 Callables []
+2019-06-26 15:07:43,437 INFO Fixpoint iterations: 2
+2019-06-26 15:07:43,569 PERFORMANCE Analysis fixpoint complete: 1.984000s
+2019-06-26 15:07:43,584 PERFORMANCE Analyze: 6.508000s
+2019-06-26 15:10:35,467 INFO Received Watchman update for files ['/home/in062/PycharmProjects/check_pyre/static_analysis_example/source.py'].
+2019-06-26 15:10:35,467 INFO Received Watchman update for files ['/home/in062/PycharmProjects/check_pyre/static_analysis_example/source.py'].
+2019-06-26 15:10:35,467 INFO Skipping update: Pyre doesn't track any of these files.
+2019-06-26 15:10:35,467 INFO Detected new paths: /home/in062/PycharmProjects/check_pyre/static_analysis_example/source.py.
+2019-06-26 15:10:35,468 ERROR Buck root couldn't be found. Returning empty analysis directory mapping.
+
+2019-06-26 15:10:35,468 INFO Skipping update: Pyre doesn't track any of these files.
+2019-06-26 15:23:05,095 INFO Received Watchman update for files ['/home/in062/PycharmProjects/check_pyre/test/test_pyre/data_class.py'].
+2019-06-26 15:23:05,095 INFO Received Watchman update for files ['/home/in062/PycharmProjects/check_pyre/test/test_pyre/data_class.py'].
+2019-06-26 15:23:05,096 INFO Notifying server of update to files ['/home/in062/PycharmProjects/check_pyre/.pyre/shared_analysis_directory/test_pyre/data_class.py'].
+2019-06-26 15:23:05,095 INFO Notifying server of update to files ['/home/in062/PycharmProjects/check_pyre/test/test_pyre/data_class.py'].
+2019-06-26 16:03:07,582 DEBUG Reading configuration `local_test/.pyre_configuration.local`...
+2019-06-26 16:03:07,582 DEBUG Found source_directories: `.`
+2019-06-26 16:03:07,583 DEBUG Reading configuration `.pyre_configuration`...
+2019-06-26 16:03:07,583 ERROR Invalid configuration: Binary at `/home/in062/PycharmProjects/pyre_check.py/venv/bin/pyre.bin` does not exist.
+
+2019-06-26 16:04:29,471 DEBUG Reading configuration `local_test/.pyre_configuration.local`...
+2019-06-26 16:04:29,471 DEBUG Found source_directories: `.`
+2019-06-26 16:04:29,471 DEBUG Reading configuration `.pyre_configuration`...
+2019-06-26 16:04:29,472 WARNING Starting server at `local_test/.`.
+
+2019-06-26 16:04:29,474 DEBUG Running `/home/in062/PycharmProjects/check_pyre/venv/bin/pyre.bin start -logging-sections parser -project-root /home/in062/PycharmProjects/check_pyre -filter-directories /home/in062/PycharmProjects/check_pyre/local_test -workers 1 -typeshed /home/in062/PycharmProjects/check_pyre/venv/lib/pyre_check/typeshed/ -expected-binary-version unversioned local_test/.`
+2019-06-26 16:04:29,543 INFO Initialized file monitor.
+2019-06-26 16:04:29,544 INFO Waiting for server...
+2019-06-26 16:04:29,545 DEBUG Running `/home/in062/PycharmProjects/check_pyre/venv/bin/pyre.bin incremental -logging-sections parser -project-root /home/in062/PycharmProjects/check_pyre -typeshed /home/in062/PycharmProjects/check_pyre/venv/lib/pyre_check/typeshed/ -expected-binary-version unversioned local_test/.`
+2019-06-26 16:04:29,592 INFO Starting up server...
+2019-06-26 16:04:30,563 PERFORMANCE Stubs parsed: 0.817000s
+2019-06-26 16:04:30,563 INFO Parsing 1 sources in `/home/in062/PycharmProjects/check_pyre/local_test`...
+2019-06-26 16:04:30,563 PERFORMANCE Sources parsed: 0.015000s
+2019-06-26 16:04:30,563 PERFORMANCE Registered ignores: 0.016000s
+2019-06-26 16:04:30,564 INFO Adding environment information to shared memory...
+2019-06-26 16:04:30,564 PERFORMANCE Added environment to shared memory: 0.000000s
+2019-06-26 16:04:30,665 INFO Building type environment...
+2019-06-26 16:04:32,224 SUCCESS No type errors found
+
+2019-06-26 16:05:50,762 DEBUG Reading configuration `.pyre_configuration`...
+2019-06-26 16:05:50,763 DEBUG Found source_directories: `./test, ./local_test`
+2019-06-26 16:05:50,764 INFO Constructing shared directory `/home/in062/PycharmProjects/check_pyre/.pyre/shared_analysis_directory_32739`
+2019-06-26 16:05:50,769 PERFORMANCE Merged analysis directories in 0.006261s
+2019-06-26 16:05:50,772 DEBUG Running `/home/in062/PycharmProjects/check_pyre/venv/bin/pyre.bin check -logging-sections parser -project-root /home/in062/PycharmProjects/check_pyre -filter-directories /home/in062/PycharmProjects/check_pyre -workers 1 -typeshed /home/in062/PycharmProjects/check_pyre/venv/lib/pyre_check/typeshed/ /home/in062/PycharmProjects/check_pyre/.pyre/shared_analysis_directory_32739`
+2019-06-26 16:05:50,795 INFO Finding type stubs in `/home/in062/PycharmProjects/check_pyre/.pyre/shared_analysis_directory_32739`...
+2019-06-26 16:05:50,810 INFO Finding type stubs in `/home/in062/PycharmProjects/check_pyre/venv/lib/pyre_check/typeshed/third_party`...
+2019-06-26 16:05:50,821 INFO Finding type stubs in `/home/in062/PycharmProjects/check_pyre/venv/lib/pyre_check/typeshed/stdlib`...
+2019-06-26 16:05:50,921 INFO Parsing 803 stubs and external sources...
+2019-06-26 16:05:51,643 PERFORMANCE Stubs parsed: 0.821000s
+2019-06-26 16:05:51,661 INFO Parsing 6 sources in `/home/in062/PycharmProjects/check_pyre/.pyre/shared_analysis_directory_32739`...
+2019-06-26 16:05:51,678 PERFORMANCE Sources parsed: 0.018000s
+2019-06-26 16:05:51,678 PERFORMANCE Registered ignores: 0.016000s
+2019-06-26 16:05:51,679 INFO Adding environment information to shared memory...
+2019-06-26 16:05:51,679 PERFORMANCE Added environment to shared memory: 0.000000s
+2019-06-26 16:05:51,779 INFO Building type environment...
+2019-06-26 16:05:53,443 PERFORMANCE Full environment built: 1.764000s
+2019-06-26 16:05:53,499 MEMORY Shared memory size (size: 15)
+2019-06-26 16:05:53,499 PERFORMANCE Filtered directories: 0.055000s
+2019-06-26 16:05:53,500 INFO Checking 7 sources...
+2019-06-26 16:05:53,539 INFO Running check `TypeCheck`...
+2019-06-26 16:05:53,539 INFO Processed 7 of 7 sources
+2019-06-26 16:05:53,539 PERFORMANCE Check_TypeCheck: 0.039000s
+2019-06-26 16:05:53,556 PERFORMANCE Analyzed sources: 0.039000s
+2019-06-26 16:05:53,565 PERFORMANCE Postprocessed: 0.016000s
+2019-06-26 16:05:53,576 PERFORMANCE Check: 2.776000s
+2019-06-26 16:05:53,577 ERROR Found 5 type errors!
+
+2019-06-26 16:06:03,140 DEBUG Reading configuration `.pyre_configuration`...
+2019-06-26 16:06:03,140 DEBUG Found source_directories: `./test, ./local_test`
+2019-06-26 16:06:03,142 INFO Waiting for server...
+2019-06-26 16:06:03,143 DEBUG Running `/home/in062/PycharmProjects/check_pyre/venv/bin/pyre.bin incremental -logging-sections parser -project-root /home/in062/PycharmProjects/check_pyre -typeshed /home/in062/PycharmProjects/check_pyre/venv/lib/pyre_check/typeshed/ -expected-binary-version unversioned /home/in062/PycharmProjects/check_pyre/.pyre/shared_analysis_directory`
+2019-06-26 16:06:03,311 ERROR Found 5 type errors!
+
+2019-06-26 16:09:57,127 INFO Received Watchman update for files ['/home/in062/PycharmProjects/check_pyre/test/test_pyre/test.py'].
+2019-06-26 16:09:57,127 INFO Received Watchman update for files ['/home/in062/PycharmProjects/check_pyre/test/test_pyre/test.py'].
+2019-06-26 16:09:57,128 INFO Notifying server of update to files ['/home/in062/PycharmProjects/check_pyre/.pyre/shared_analysis_directory/test_pyre/test.py'].
+2019-06-26 16:09:57,128 INFO Notifying server of update to files ['/home/in062/PycharmProjects/check_pyre/test/test_pyre/test.py'].
+2019-06-26 16:09:57,128 INFO Received Watchman update for files ['/home/in062/PycharmProjects/check_pyre/test/test_pyre/test.py'].
+2019-06-26 16:09:57,130 INFO Skipping update: Pyre doesn't track any of these files.
+2019-06-26 16:10:38,951 INFO Received Watchman update for files ['/home/in062/PycharmProjects/check_pyre/test/test_pyre/test.py'].
+2019-06-26 16:10:38,951 INFO Received Watchman update for files ['/home/in062/PycharmProjects/check_pyre/test/test_pyre/test.py'].
+2019-06-26 16:10:38,951 INFO Received Watchman update for files ['/home/in062/PycharmProjects/check_pyre/test/test_pyre/test.py'].
+2019-06-26 16:10:38,952 INFO Skipping update: Pyre doesn't track any of these files.
+2019-06-26 16:10:38,952 INFO Notifying server of update to files ['/home/in062/PycharmProjects/check_pyre/test/test_pyre/test.py'].
+2019-06-26 16:10:38,952 INFO Notifying server of update to files ['/home/in062/PycharmProjects/check_pyre/.pyre/shared_analysis_directory/test_pyre/test.py'].
+2019-06-26 16:10:56,747 INFO Received Watchman update for files ['/home/in062/PycharmProjects/check_pyre/test/test_pyre/test.py'].
+2019-06-26 16:10:56,747 INFO Received Watchman update for files ['/home/in062/PycharmProjects/check_pyre/test/test_pyre/test.py'].
+2019-06-26 16:10:56,748 INFO Notifying server of update to files ['/home/in062/PycharmProjects/check_pyre/test/test_pyre/test.py'].
+2019-06-26 16:10:56,748 INFO Notifying server of update to files ['/home/in062/PycharmProjects/check_pyre/.pyre/shared_analysis_directory/test_pyre/test.py'].
+2019-06-26 16:10:56,750 INFO Received Watchman update for files ['/home/in062/PycharmProjects/check_pyre/test/test_pyre/test.py'].
+2019-06-26 16:10:56,750 INFO Skipping update: Pyre doesn't track any of these files.
+2019-06-26 16:11:05,232 DEBUG Reading configuration `.pyre_configuration`...
+2019-06-26 16:11:05,232 DEBUG Found source_directories: `./test, ./local_test`
+2019-06-26 16:11:05,233 INFO Constructing shared directory `/home/in062/PycharmProjects/check_pyre/.pyre/shared_analysis_directory_599`
+2019-06-26 16:11:05,238 PERFORMANCE Merged analysis directories in 0.005939s
+2019-06-26 16:11:05,241 DEBUG Running `/home/in062/PycharmProjects/check_pyre/venv/bin/pyre.bin check -logging-sections parser -project-root /home/in062/PycharmProjects/check_pyre -filter-directories /home/in062/PycharmProjects/check_pyre -workers 1 -typeshed /home/in062/PycharmProjects/check_pyre/venv/lib/pyre_check/typeshed/ /home/in062/PycharmProjects/check_pyre/.pyre/shared_analysis_directory_599`
+2019-06-26 16:11:05,255 INFO Finding type stubs in `/home/in062/PycharmProjects/check_pyre/.pyre/shared_analysis_directory_599`...
+2019-06-26 16:11:05,259 INFO Finding type stubs in `/home/in062/PycharmProjects/check_pyre/venv/lib/pyre_check/typeshed/third_party`...
+2019-06-26 16:11:05,267 INFO Finding type stubs in `/home/in062/PycharmProjects/check_pyre/venv/lib/pyre_check/typeshed/stdlib`...
+2019-06-26 16:11:05,368 INFO Parsing 803 stubs and external sources...
+2019-06-26 16:11:06,090 PERFORMANCE Stubs parsed: 0.822000s
+2019-06-26 16:11:06,109 INFO Parsing 6 sources in `/home/in062/PycharmProjects/check_pyre/.pyre/shared_analysis_directory_599`...
+2019-06-26 16:11:06,125 PERFORMANCE Sources parsed: 0.018000s
+2019-06-26 16:11:06,126 PERFORMANCE Registered ignores: 0.016000s
+2019-06-26 16:11:06,126 INFO Adding environment information to shared memory...
+2019-06-26 16:11:06,127 PERFORMANCE Added environment to shared memory: 0.000000s
+2019-06-26 16:11:06,227 INFO Building type environment...
+2019-06-26 16:11:07,899 PERFORMANCE Full environment built: 1.772000s
+2019-06-26 16:11:07,955 MEMORY Shared memory size (size: 15)
+2019-06-26 16:11:07,956 PERFORMANCE Filtered directories: 0.055000s
+2019-06-26 16:11:07,956 INFO Checking 7 sources...
+2019-06-26 16:11:07,995 INFO Running check `TypeCheck`...
+2019-06-26 16:11:07,995 INFO Processed 7 of 7 sources
+2019-06-26 16:11:07,995 PERFORMANCE Check_TypeCheck: 0.039000s
+2019-06-26 16:11:08,012 PERFORMANCE Analyzed sources: 0.039000s
+2019-06-26 16:11:08,021 PERFORMANCE Postprocessed: 0.016000s
+2019-06-26 16:11:08,032 PERFORMANCE Check: 2.768000s
+2019-06-26 16:11:08,033 ERROR Found 4 type errors!
+
+2019-06-26 16:11:48,872 INFO Received Watchman update for files ['/home/in062/PycharmProjects/check_pyre/test/test_pyre/test.py'].
+2019-06-26 16:11:48,872 INFO Received Watchman update for files ['/home/in062/PycharmProjects/check_pyre/test/test_pyre/test.py'].
+2019-06-26 16:11:48,872 INFO Received Watchman update for files ['/home/in062/PycharmProjects/check_pyre/test/test_pyre/test.py'].
+2019-06-26 16:11:48,872 INFO Notifying server of update to files ['/home/in062/PycharmProjects/check_pyre/test/test_pyre/test.py'].
+2019-06-26 16:11:48,872 INFO Skipping update: Pyre doesn't track any of these files.
+2019-06-26 16:11:48,872 INFO Notifying server of update to files ['/home/in062/PycharmProjects/check_pyre/.pyre/shared_analysis_directory/test_pyre/test.py'].
+2019-06-26 16:11:52,062 DEBUG Reading configuration `.pyre_configuration`...
+2019-06-26 16:11:52,062 DEBUG Found source_directories: `./test, ./local_test`
+2019-06-26 16:11:52,064 INFO Constructing shared directory `/home/in062/PycharmProjects/check_pyre/.pyre/shared_analysis_directory_682`
+2019-06-26 16:11:52,069 PERFORMANCE Merged analysis directories in 0.005904s
+2019-06-26 16:11:52,071 DEBUG Running `/home/in062/PycharmProjects/check_pyre/venv/bin/pyre.bin check -logging-sections parser -project-root /home/in062/PycharmProjects/check_pyre -filter-directories /home/in062/PycharmProjects/check_pyre -workers 1 -typeshed /home/in062/PycharmProjects/check_pyre/venv/lib/pyre_check/typeshed/ /home/in062/PycharmProjects/check_pyre/.pyre/shared_analysis_directory_682`
+2019-06-26 16:11:52,087 INFO Finding type stubs in `/home/in062/PycharmProjects/check_pyre/.pyre/shared_analysis_directory_682`...
+2019-06-26 16:11:52,093 INFO Finding type stubs in `/home/in062/PycharmProjects/check_pyre/venv/lib/pyre_check/typeshed/third_party`...
+2019-06-26 16:11:52,102 INFO Finding type stubs in `/home/in062/PycharmProjects/check_pyre/venv/lib/pyre_check/typeshed/stdlib`...
+2019-06-26 16:11:52,203 INFO Parsing 803 stubs and external sources...
+2019-06-26 16:11:52,921 PERFORMANCE Stubs parsed: 0.818000s
+2019-06-26 16:11:52,940 INFO Parsing 6 sources in `/home/in062/PycharmProjects/check_pyre/.pyre/shared_analysis_directory_682`...
+2019-06-26 16:11:52,956 PERFORMANCE Sources parsed: 0.018000s
+2019-06-26 16:11:52,956 PERFORMANCE Registered ignores: 0.016000s
+2019-06-26 16:11:52,957 INFO Adding environment information to shared memory...
+2019-06-26 16:11:52,957 PERFORMANCE Added environment to shared memory: 0.000000s
+2019-06-26 16:11:53,057 INFO Building type environment...
+2019-06-26 16:11:54,748 PERFORMANCE Full environment built: 1.790000s
+2019-06-26 16:11:54,804 MEMORY Shared memory size (size: 15)
+2019-06-26 16:11:54,804 PERFORMANCE Filtered directories: 0.055000s
+2019-06-26 16:11:54,805 INFO Checking 7 sources...
+2019-06-26 16:11:54,844 INFO Running check `TypeCheck`...
+2019-06-26 16:11:54,844 INFO Processed 7 of 7 sources
+2019-06-26 16:11:54,845 PERFORMANCE Check_TypeCheck: 0.040000s
+2019-06-26 16:11:54,861 PERFORMANCE Analyzed sources: 0.040000s
+2019-06-26 16:11:54,871 PERFORMANCE Postprocessed: 0.016000s
+2019-06-26 16:11:54,882 PERFORMANCE Check: 2.786000s
+2019-06-26 16:11:54,883 ERROR Found 4 type errors!
+
+2019-06-26 16:12:22,304 INFO Received Watchman update for files ['/home/in062/PycharmProjects/check_pyre/test/test_pyre/test.py'].
+2019-06-26 16:12:22,304 INFO Received Watchman update for files ['/home/in062/PycharmProjects/check_pyre/test/test_pyre/test.py'].
+2019-06-26 16:12:22,305 INFO Notifying server of update to files ['/home/in062/PycharmProjects/check_pyre/test/test_pyre/test.py'].
+2019-06-26 16:12:22,305 INFO Received Watchman update for files ['/home/in062/PycharmProjects/check_pyre/test/test_pyre/test.py'].
+2019-06-26 16:12:22,305 INFO Notifying server of update to files ['/home/in062/PycharmProjects/check_pyre/.pyre/shared_analysis_directory/test_pyre/test.py'].
+2019-06-26 16:12:22,306 INFO Skipping update: Pyre doesn't track any of these files.
+2019-06-26 16:12:57,490 INFO Received Watchman update for files ['/home/in062/PycharmProjects/check_pyre/test/test_pyre/test.py'].
+2019-06-26 16:12:57,490 INFO Received Watchman update for files ['/home/in062/PycharmProjects/check_pyre/test/test_pyre/test.py'].
+2019-06-26 16:12:57,491 INFO Skipping update: Pyre doesn't track any of these files.
+2019-06-26 16:12:57,491 INFO Notifying server of update to files ['/home/in062/PycharmProjects/check_pyre/.pyre/shared_analysis_directory/test_pyre/test.py'].
+2019-06-26 16:12:57,491 INFO Received Watchman update for files ['/home/in062/PycharmProjects/check_pyre/test/test_pyre/test.py'].
+2019-06-26 16:12:57,492 INFO Notifying server of update to files ['/home/in062/PycharmProjects/check_pyre/test/test_pyre/test.py'].
+2019-06-26 16:13:02,847 DEBUG Reading configuration `.pyre_configuration`...
+2019-06-26 16:13:02,847 DEBUG Found source_directories: `./test, ./local_test`
+2019-06-26 16:13:02,849 INFO Constructing shared directory `/home/in062/PycharmProjects/check_pyre/.pyre/shared_analysis_directory_802`
+2019-06-26 16:13:02,854 PERFORMANCE Merged analysis directories in 0.006780s
+2019-06-26 16:13:02,857 DEBUG Running `/home/in062/PycharmProjects/check_pyre/venv/bin/pyre.bin check -logging-sections parser -project-root /home/in062/PycharmProjects/check_pyre -filter-directories /home/in062/PycharmProjects/check_pyre -workers 1 -typeshed /home/in062/PycharmProjects/check_pyre/venv/lib/pyre_check/typeshed/ /home/in062/PycharmProjects/check_pyre/.pyre/shared_analysis_directory_802`
+2019-06-26 16:13:02,872 INFO Finding type stubs in `/home/in062/PycharmProjects/check_pyre/.pyre/shared_analysis_directory_802`...
+2019-06-26 16:13:02,876 INFO Finding type stubs in `/home/in062/PycharmProjects/check_pyre/venv/lib/pyre_check/typeshed/third_party`...
+2019-06-26 16:13:02,885 INFO Finding type stubs in `/home/in062/PycharmProjects/check_pyre/venv/lib/pyre_check/typeshed/stdlib`...
+2019-06-26 16:13:02,985 INFO Parsing 803 stubs and external sources...
+2019-06-26 16:13:03,707 PERFORMANCE Stubs parsed: 0.822000s
+2019-06-26 16:13:03,726 INFO Parsing 6 sources in `/home/in062/PycharmProjects/check_pyre/.pyre/shared_analysis_directory_802`...
+2019-06-26 16:13:03,742 PERFORMANCE Sources parsed: 0.018000s
+2019-06-26 16:13:03,742 PERFORMANCE Registered ignores: 0.016000s
+2019-06-26 16:13:03,743 INFO Adding environment information to shared memory...
+2019-06-26 16:13:03,743 PERFORMANCE Added environment to shared memory: 0.000000s
+2019-06-26 16:13:03,844 INFO Building type environment...
+2019-06-26 16:13:05,522 PERFORMANCE Full environment built: 1.779000s
+2019-06-26 16:13:05,578 MEMORY Shared memory size (size: 15)
+2019-06-26 16:13:05,578 PERFORMANCE Filtered directories: 0.056000s
+2019-06-26 16:13:05,579 INFO Checking 7 sources...
+2019-06-26 16:13:05,618 INFO Running check `TypeCheck`...
+2019-06-26 16:13:05,619 INFO Processed 7 of 7 sources
+2019-06-26 16:13:05,619 PERFORMANCE Check_TypeCheck: 0.040000s
+2019-06-26 16:13:05,636 PERFORMANCE Analyzed sources: 0.040000s
+2019-06-26 16:13:05,645 PERFORMANCE Postprocessed: 0.016000s
+2019-06-26 16:13:05,656 PERFORMANCE Check: 2.777000s
+2019-06-26 16:13:05,657 ERROR Found 5 type errors!
+
+2019-06-26 16:32:55,112 DEBUG Reading configuration `.pyre_configuration`...
+2019-06-26 16:32:55,112 DEBUG Found source_directories: `./test, ./local_test`
+2019-06-26 16:32:55,114 INFO Waiting for server...
+2019-06-26 16:32:55,114 DEBUG Running `/home/in062/PycharmProjects/check_pyre/venv/bin/pyre.bin incremental -logging-sections parser -project-root /home/in062/PycharmProjects/check_pyre -typeshed /home/in062/PycharmProjects/check_pyre/venv/lib/pyre_check/typeshed/ -expected-binary-version unversioned /home/in062/PycharmProjects/check_pyre/.pyre/shared_analysis_directory`
+2019-06-26 16:32:55,219 ERROR Found 5 type errors!
+
+2019-06-26 17:05:42,510 DEBUG Reading configuration `.pyre_configuration`...
+2019-06-26 17:05:42,511 DEBUG Found source_directories: `./test, ./local_test`
+2019-06-26 17:05:42,512 INFO Constructing shared directory `/home/in062/PycharmProjects/check_pyre/.pyre/shared_analysis_directory_4423`
+2019-06-26 17:05:42,517 PERFORMANCE Merged analysis directories in 0.006049s
+2019-06-26 17:05:42,520 DEBUG Running `/home/in062/PycharmProjects/check_pyre/venv/bin/pyre.bin check -logging-sections parser -project-root /home/in062/PycharmProjects/check_pyre -filter-directories /home/in062/PycharmProjects/check_pyre -workers 1 -typeshed /home/in062/PycharmProjects/check_pyre/venv/lib/pyre_check/typeshed/ /home/in062/PycharmProjects/check_pyre/.pyre/shared_analysis_directory_4423`
+2019-06-26 17:05:42,535 INFO Finding type stubs in `/home/in062/PycharmProjects/check_pyre/.pyre/shared_analysis_directory_4423`...
+2019-06-26 17:05:42,542 INFO Finding type stubs in `/home/in062/PycharmProjects/check_pyre/venv/lib/pyre_check/typeshed/third_party`...
+2019-06-26 17:05:42,552 INFO Finding type stubs in `/home/in062/PycharmProjects/check_pyre/venv/lib/pyre_check/typeshed/stdlib`...
+2019-06-26 17:05:42,652 INFO Parsing 803 stubs and external sources...
+2019-06-26 17:05:43,374 PERFORMANCE Stubs parsed: 0.821000s
+2019-06-26 17:05:43,393 INFO Parsing 6 sources in `/home/in062/PycharmProjects/check_pyre/.pyre/shared_analysis_directory_4423`...
+2019-06-26 17:05:43,409 PERFORMANCE Sources parsed: 0.018000s
+2019-06-26 17:05:43,410 PERFORMANCE Registered ignores: 0.016000s
+2019-06-26 17:05:43,410 INFO Adding environment information to shared memory...
+2019-06-26 17:05:43,411 PERFORMANCE Added environment to shared memory: 0.000000s
+2019-06-26 17:05:43,511 INFO Building type environment...
+2019-06-26 17:05:45,202 PERFORMANCE Full environment built: 1.790000s
+2019-06-26 17:05:45,258 MEMORY Shared memory size (size: 15)
+2019-06-26 17:05:45,258 PERFORMANCE Filtered directories: 0.056000s
+2019-06-26 17:05:45,258 INFO Checking 7 sources...
+2019-06-26 17:05:45,297 INFO Running check `TypeCheck`...
+2019-06-26 17:05:45,298 INFO Processed 7 of 7 sources
+2019-06-26 17:05:45,298 PERFORMANCE Check_TypeCheck: 0.039000s
+2019-06-26 17:05:45,315 PERFORMANCE Analyzed sources: 0.039000s
+2019-06-26 17:05:45,324 PERFORMANCE Postprocessed: 0.017000s
+2019-06-26 17:05:45,337 PERFORMANCE Check: 2.792000s
+2019-06-26 17:05:45,339 ERROR Found 5 type errors!
+
