@@ -1,4 +1,4 @@
-def test(num: int) -> int:
+def test(num: int) -> str:
     print(num)
     return "ayush"
 
