@@ -1,4 +1,4 @@
-# pyre-strict
+
 from typing import Any
 
 
