@@ -1,4 +1,4 @@
-# pyre-strict
+
 from dataclasses import dataclass
 from math import asin, cos, radians, sin, sqrt
 
