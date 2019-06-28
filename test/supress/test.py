@@ -25,10 +25,3 @@ def fourth() -> int:
 def fifth() -> int:
     return "ayush"  # pyre-ignore[7]
 
-
-def to_seconds(milliseconds: Iterable[float]) -> List[int]:
-    return [int(x/1000.0) for x in milliseconds]
-
-
-my_list: List[int] = [1]
-my_list = to_seconds(my_list)
